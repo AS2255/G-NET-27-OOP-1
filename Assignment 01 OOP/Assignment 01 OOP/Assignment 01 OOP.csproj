@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>Assignment_01_OOP</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\CinemaLibrary\CinemaLibrary\CinemaLibrary.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="CinemaLibrary">
+      <HintPath>..\..\CinemaLibrary\CinemaLibrary\bin\Debug\net8.0\CinemaLibrary.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
